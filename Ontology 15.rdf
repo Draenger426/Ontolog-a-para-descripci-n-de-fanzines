@@ -229,7 +229,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_dibujante_de">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_autor_de"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_dibujante"/>
-        <rdfs:domain rdf:resource="http://example.org/ontologia#Autor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#dibujante"/>
         <rdfs:range rdf:resource="http://example.org/ontologia#Contenido"/>
         <rdfs:comment>Define quién es el dibujante de un contenido.</rdfs:comment>
         <rdfs:label>es dibujante de</rdfs:label>
@@ -242,7 +242,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_guionista_de">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_autor_de"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_guionista"/>
-        <rdfs:domain rdf:resource="http://example.org/ontologia#Autor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#Guionista"/>
         <rdfs:range rdf:resource="http://example.org/ontologia#Contenido"/>
         <rdfs:comment>Define quién es el guionista de un contenido.</rdfs:comment>
         <rdfs:label>es guionista de</rdfs:label>
@@ -345,7 +345,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_dibujante">
         <rdfs:subPropertyOf rdf:resource="http://example.org/ontologia#tiene_autor"/>
         <rdfs:domain rdf:resource="http://example.org/ontologia#Contenido"/>
-        <rdfs:range rdf:resource="http://example.org/ontologia#Autor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#dibujante"/>
         <rdfs:comment>Define el vínculo entre un contenido y su dibujante.</rdfs:comment>
         <rdfs:label>tiene dibujante</rdfs:label>
     </owl:ObjectProperty>
@@ -357,7 +357,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_guionista">
         <rdfs:subPropertyOf rdf:resource="http://example.org/ontologia#tiene_autor"/>
         <rdfs:domain rdf:resource="http://example.org/ontologia#Contenido"/>
-        <rdfs:range rdf:resource="http://example.org/ontologia#Autor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#Guionista"/>
         <rdfs:comment>Define el vínculo entre un contenido y su guionista.</rdfs:comment>
         <rdfs:label>tiene guionista</rdfs:label>
     </owl:ObjectProperty>
