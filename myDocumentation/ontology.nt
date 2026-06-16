@@ -4,7 +4,6 @@
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2> <http://purl.org/dc/elements/1.1/creator> "Ángel Arcos Sánchez" .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2> <http://purl.org/dc/elements/1.1/description> "Ontología para la descripción de fanzines. Se ha tomado como base el fanzine \"Radikal Al Kilo\", que se publicó entre los años 80 y 90 del siglo XX en la Facultad de Ciencias de la Universidad de Granada." .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2> <http://purl.org/dc/elements/1.1/title> "Ontología para descripción de fanzines" .
-<http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2> <http://www.w3.org/2002/07/owl#ontologyIRI> "http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2" .
 # 
 # 
 # #################################################################
@@ -141,7 +140,7 @@
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_dibujante_de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_dibujante_de> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_autor_de> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_dibujante_de> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_dibujante> .
-<http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_dibujante_de> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/ontologia#Autor> .
+<http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_dibujante_de> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#dibujante> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_dibujante_de> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/ontologia#Contenido> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_dibujante_de> <http://www.w3.org/2000/01/rdf-schema#comment> "Define quién es el dibujante de un contenido." .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_dibujante_de> <http://www.w3.org/2000/01/rdf-schema#label> "es dibujante de" .
@@ -150,7 +149,7 @@
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_guionista_de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_guionista_de> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_autor_de> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_guionista_de> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_guionista> .
-<http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_guionista_de> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/ontologia#Autor> .
+<http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_guionista_de> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#Guionista> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_guionista_de> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/ontologia#Contenido> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_guionista_de> <http://www.w3.org/2000/01/rdf-schema#comment> "Define quién es el guionista de un contenido." .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_guionista_de> <http://www.w3.org/2000/01/rdf-schema#label> "es guionista de" .
@@ -217,7 +216,7 @@
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_dibujante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_dibujante> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ontologia#tiene_autor> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_dibujante> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/ontologia#Contenido> .
-<http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_dibujante> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/ontologia#Autor> .
+<http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_dibujante> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#dibujante> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_dibujante> <http://www.w3.org/2000/01/rdf-schema#comment> "Define el vínculo entre un contenido y su dibujante." .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_dibujante> <http://www.w3.org/2000/01/rdf-schema#label> "tiene dibujante" .
 # 
@@ -225,7 +224,7 @@
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_guionista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_guionista> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ontologia#tiene_autor> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_guionista> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/ontologia#Contenido> .
-<http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_guionista> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/ontologia#Autor> .
+<http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_guionista> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#Guionista> .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_guionista> <http://www.w3.org/2000/01/rdf-schema#comment> "Define el vínculo entre un contenido y su guionista." .
 <http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_guionista> <http://www.w3.org/2000/01/rdf-schema#label> "tiene guionista" .
 # 

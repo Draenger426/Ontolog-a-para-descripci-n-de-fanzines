@@ -551,9 +551,6 @@
   } ],
   "http://purl.org/dc/elements/1.1/title" : [ {
     "@value" : "Ontología para descripción de fanzines"
-  } ],
-  "http://www.w3.org/2002/07/owl#ontologyIRI" : [ {
-    "@value" : "http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#Anselmo",
@@ -16688,7 +16685,7 @@
     "@value" : "Define quién es el dibujante de un contenido."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://example.org/ontologia#Autor"
+    "@id" : "http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#dibujante"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "es dibujante de"
@@ -16709,7 +16706,7 @@
     "@value" : "Define quién es el guionista de un contenido."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://example.org/ontologia#Autor"
+    "@id" : "http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#Guionista"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "es guionista de"
@@ -55389,7 +55386,7 @@
     "@value" : "tiene dibujante"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://example.org/ontologia#Autor"
+    "@id" : "http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#dibujante"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://example.org/ontologia#tiene_autor"
@@ -55407,7 +55404,7 @@
     "@value" : "tiene guionista"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://example.org/ontologia#Autor"
+    "@id" : "http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#Guionista"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://example.org/ontologia#tiene_autor"

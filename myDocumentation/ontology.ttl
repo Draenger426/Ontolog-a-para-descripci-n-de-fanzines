@@ -11,8 +11,7 @@
                                                                                                                        "José Manuel Morales del Castillo" ,
                                                                                                                        "Ángel Arcos Sánchez" ;
                                                                              <http://purl.org/dc/elements/1.1/description> "Ontología para la descripción de fanzines. Se ha tomado como base el fanzine \"Radikal Al Kilo\", que se publicó entre los años 80 y 90 del siglo XX en la Facultad de Ciencias de la Universidad de Granada." ;
-                                                                             <http://purl.org/dc/elements/1.1/title> "Ontología para descripción de fanzines" ;
-                                                                             owl:ontologyIRI "http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2" .
+                                                                             <http://purl.org/dc/elements/1.1/title> "Ontología para descripción de fanzines" .
 
 #################################################################
 #    Annotation properties
@@ -154,7 +153,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :es_dibujante_de rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf :es_autor_de ;
                  owl:inverseOf :tiene_dibujante ;
-                 rdfs:domain <http://example.org/ontologia#Autor> ;
+                 rdfs:domain :dibujante ;
                  rdfs:range <http://example.org/ontologia#Contenido> ;
                  rdfs:comment "Define quién es el dibujante de un contenido." ;
                  rdfs:label "es dibujante de" .
@@ -164,7 +163,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :es_guionista_de rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf :es_autor_de ;
                  owl:inverseOf :tiene_guionista ;
-                 rdfs:domain <http://example.org/ontologia#Autor> ;
+                 rdfs:domain :Guionista ;
                  rdfs:range <http://example.org/ontologia#Contenido> ;
                  rdfs:comment "Define quién es el guionista de un contenido." ;
                  rdfs:label "es guionista de" .
@@ -240,7 +239,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :tiene_dibujante rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf <http://example.org/ontologia#tiene_autor> ;
                  rdfs:domain <http://example.org/ontologia#Contenido> ;
-                 rdfs:range <http://example.org/ontologia#Autor> ;
+                 rdfs:range :dibujante ;
                  rdfs:comment "Define el vínculo entre un contenido y su dibujante." ;
                  rdfs:label "tiene dibujante" .
 
@@ -249,7 +248,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :tiene_guionista rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf <http://example.org/ontologia#tiene_autor> ;
                  rdfs:domain <http://example.org/ontologia#Contenido> ;
-                 rdfs:range <http://example.org/ontologia#Autor> ;
+                 rdfs:range :Guionista ;
                  rdfs:comment "Define el vínculo entre un contenido y su guionista." ;
                  rdfs:label "tiene guionista" .
 

@@ -15,7 +15,6 @@
         <dc:creator>Ángel Arcos Sánchez</dc:creator>
         <dc:description>Ontología para la descripción de fanzines. Se ha tomado como base el fanzine &quot;Radikal Al Kilo&quot;, que se publicó entre los años 80 y 90 del siglo XX en la Facultad de Ciencias de la Universidad de Granada.</dc:description>
         <dc:title>Ontología para descripción de fanzines</dc:title>
-        <owl:ontologyIRI>http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2</owl:ontologyIRI>
     </owl:Ontology>
     
 
@@ -253,7 +252,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_dibujante_de">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_autor_de"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_dibujante"/>
-        <rdfs:domain rdf:resource="http://example.org/ontologia#Autor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#dibujante"/>
         <rdfs:range rdf:resource="http://example.org/ontologia#Contenido"/>
         <rdfs:comment>Define quién es el dibujante de un contenido.</rdfs:comment>
         <rdfs:label>es dibujante de</rdfs:label>
@@ -267,7 +266,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_guionista_de">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#es_autor_de"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_guionista"/>
-        <rdfs:domain rdf:resource="http://example.org/ontologia#Autor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#Guionista"/>
         <rdfs:range rdf:resource="http://example.org/ontologia#Contenido"/>
         <rdfs:comment>Define quién es el guionista de un contenido.</rdfs:comment>
         <rdfs:label>es guionista de</rdfs:label>
@@ -379,7 +378,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_dibujante">
         <rdfs:subPropertyOf rdf:resource="http://example.org/ontologia#tiene_autor"/>
         <rdfs:domain rdf:resource="http://example.org/ontologia#Contenido"/>
-        <rdfs:range rdf:resource="http://example.org/ontologia#Autor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#dibujante"/>
         <rdfs:comment>Define el vínculo entre un contenido y su dibujante.</rdfs:comment>
         <rdfs:label>tiene dibujante</rdfs:label>
     </owl:ObjectProperty>
@@ -392,7 +391,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#tiene_guionista">
         <rdfs:subPropertyOf rdf:resource="http://example.org/ontologia#tiene_autor"/>
         <rdfs:domain rdf:resource="http://example.org/ontologia#Contenido"/>
-        <rdfs:range rdf:resource="http://example.org/ontologia#Autor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario1/ontologies/2025/4/untitled-ontology-2#Guionista"/>
         <rdfs:comment>Define el vínculo entre un contenido y su guionista.</rdfs:comment>
         <rdfs:label>tiene guionista</rdfs:label>
     </owl:ObjectProperty>
